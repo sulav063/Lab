@@ -1,0 +1,14 @@
+CREATE DATABASE Q2;
+USE Q2;
+CREATE TABLE student (
+    id INT PRIMARY KEY,
+    username VARCHAR(50),
+    password VARCHAR(50),
+    gender VARCHAR(10),
+    course VARCHAR(50),
+    country VARCHAR(50)
+);
+		
+INSERT INTO student VALUES
+(1, 'Rocky', '1234', 'Male', 'Java PHP', 'Nepal'),
+(2, 'Garuda', '5678', 'Female', 'Java', 'India');
